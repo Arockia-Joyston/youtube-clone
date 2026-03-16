@@ -1,0 +1,277 @@
+.headerr{
+    height:56px;
+    display: flex;
+    background-color: white;
+    z-index: 1;  
+    justify-content: space-between;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    flex-direction: row;
+}
+
+.left{
+    width: 163px;
+    display:flex;
+    align-items: center;
+}
+
+.mid{
+    max-width: 732px;
+    flex: 1;
+    display: flex;
+    align-items: center; 
+}
+
+.right{
+    width: 225px;
+    display: flex;
+    align-items: center;
+}
+
+.burger{
+    height: 28px;
+    margin-left: 20px;
+    margin-bottom:1px;
+    cursor: pointer;
+}
+
+.logo{
+    height: 29px;
+    margin-left: 17px;
+    margin-bottom:2px;
+    cursor: pointer;
+}
+
+.search{
+    width:50px;
+    flex: 1;
+    height: 36.4px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;;
+    border-style: solid;
+    border-width: 1px;
+    padding-left:15px;
+    margin-left:80px;
+    font-size: 16px;
+}
+
+.mic-but{
+    height:40px;
+    border: none;
+    border-radius: 20px;
+    width: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.mic{
+    margin-top: 3px;
+    padding-right:1px;
+}
+
+.search-but{
+    width: 64px;
+    height: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    margin-left: -1px;
+    cursor: pointer;
+}
+
+.sea{
+    height: 28px;
+    padding-right:4px;
+    padding-top: 2px;
+}
+
+.crea{
+    width: 97.18px;
+    height: 36px;
+}
+
+.bell-but{
+    width: 40px;
+    height: 40px;
+    background-color:white;
+    border-radius: 20px;
+    margin-left: 4px;
+    margin-right: 8px;
+    margin-top: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.bell{
+    height: 30px;
+}
+
+.pro-but{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-top: 2px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.pr{
+    height: 32px;
+    padding-top: 2px;
+}
+
+.create-btn{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    height: 36px;
+    width: 97.175px;
+
+    background-color: #e5e5e5;
+    border: none;
+    border-radius: 20px;
+
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.plus{
+  font-size: 32px;
+  margin-left:5px;
+}
+
+.be{
+    position: relative;
+}
+
+.bell-no{
+    position: absolute;
+    top: 6px;
+    right: 14px;
+    background-color: red;
+    padding-right: 4.74px;
+    padding-left: 4.74px;
+    padding-top: 1.55px;
+    padding-bottom: 1.55px;;
+    font-size: 10px;
+    color: white;
+    font-weight: 500px;
+    font-family: Roboto, Arial;
+    border-radius: 10px;
+}
+
+.header-floating-name,
+.header-floating-search-name,
+.header-floating-mic-name,
+.be{
+    position: relative;
+}
+
+.header-floating-name .tooltip{
+    position: absolute;
+    font-size: 12px;
+    font-family: Roboto,Arial;
+    background-color: white;
+    color: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    bottom: -35px;
+    left: 20px;
+    opacity: 0;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    transition: opacity 0.25s;
+    font-weight: 300;
+    pointer-events: none;
+}
+
+.header-floating-name:hover .tooltip{
+    opacity: 0.9;
+}
+
+.header-floating-search-name .tooltip{
+    position: absolute;
+    font-size: 12px;
+    font-family: Roboto,Arial;
+    background-color: white;
+    color: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    bottom: -40px;
+    left: 0px;
+    opacity: 0;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    transition: opacity 0.25s;
+    font-weight: 300;
+    pointer-events: none;
+}
+
+.header-floating-search-name:hover .tooltip{
+    opacity: 0.9;
+}
+
+.header-floating-mic-name .tooltip{
+    position: absolute;
+    font-size: 12px;
+    font-family: Roboto,Arial;
+    background-color: rgb(96, 96, 96);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    bottom: -50px;
+    left: -35px;
+    opacity: 0;
+    border-radius: 4px;
+    transition: opacity 0.25s;
+    font-weight: 300;
+    pointer-events: none;
+    justify-content: center;
+    white-space: nowrap;
+
+}
+
+.header-floating-mic-name:hover .tooltip{
+    opacity: 0.9;
+}
+
+.be .tooltip{
+    position: absolute;
+    font-size: 12px;
+    font-family: Roboto,Arial;
+    background-color: rgb(96, 96, 96);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    bottom: -45px;
+    left: -16px;
+    opacity: 0;
+    border-radius: 4px;
+    transition: opacity 0.25s;
+    font-weight: 300;
+    pointer-events: none;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.be:hover .tooltip{
+    opacity: 0.9;
+}

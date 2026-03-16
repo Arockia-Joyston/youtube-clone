@@ -1,0 +1,51 @@
+.sidebar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 60px;
+    width: 72px;
+    
+
+}
+
+.side-menu{
+    height:74px;
+    border-radius: 14px;
+}
+
+.side-menu:hover{
+    background-color: rgb(231, 231, 231);
+    cursor: pointer;
+}
+
+.home{
+    margin-top: 15px;
+    height: 26px;
+    margin-left: 23px;
+}
+.side-name{
+    font-size: 10px;
+    margin:0px;
+    margin-bottom: 13px;
+    text-align: center;
+    font-family: Roboto, Arial;
+    font-weight: 400;
+}
+
+.shorts{
+    height: 32px;
+    margin-top: 9px;
+    margin-left: 21px;
+}
+
+.subsc{
+    margin-top: 15px;
+    height: 26px;
+    margin-left: 23px;
+}
+
+.user{
+    margin-top: 15px;
+    height: 24px;
+    margin-left: 25px;
+}
