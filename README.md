@@ -50,7 +50,7 @@ youtube-clone/
 
 ## 🌐 Live Demo
 
-[https://Arockia-Joyston.github.io/youtube-clone/](https://Arockia-Joyston.github.io/youtube-clone/)
+[https://Arockia-Joyston.github.io/youtube-clone/](https://arockia-joyston.github.io/youtube-clone/)
 
 ## 📌 Note
 
